@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+main {
+    background-color: #62aa5b;
+    min-height: 100vh;
+}
+
+header {
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    margin-right: 25px;
+    rotate: 342deg;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+    color: #2d3f2b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d3f2b;
+}
+
+.filter {
+    margin: 50px 0 65px;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    background-color: #f1f1a4;
+}
+
+button {
+    padding: 0 20px;
+    border: none;
+    background-color: #2d3f2b;
+    color: #f1f1a4;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 0 15px 15px 0;
+}
+
+span {
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0 100px;
+}
+
+thead {
+    background-color: #2d3f2b;
+    color: #f1f1a4;
+}
+
+th,td {
+    padding: 15px;
+}
+
+tbody {
+    background-color: #f1f1a4;
+    border-bottom: 1px solid #2d3f2b;
+}
+
+td {
+    color: #2d3f2b;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #2d3f2b;
+}
